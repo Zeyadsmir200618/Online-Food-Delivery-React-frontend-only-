@@ -39,3 +39,21 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
    ```bash
    git clone [https://github.com/yourusername/bitebite-delivery.git](https://github.com/yourusername/bitebite-delivery.git)
    cd bitebite-delivery
+Install the dependencies: npm install
+
+Install the required UI libraries (if not already in package.json): npm install framer-motion lucide-react tailwindcss
+
+Start the development server: npm start
+
+📁 Project Structure:
+src/
+├── components/
+│   ├── AboutPage.jsx     # Animated hero, stats, and values
+│   ├── ContactPage.jsx   # 3D interactive cards & animated form
+│   ├── LandingPage.jsx   # Main dashboard, restaurants, and nav
+│   ├── LoginPage.jsx     # User authentication UI
+│   ├── OffersPage.jsx    # Promo codes and discounts
+│   └── SignupPage.jsx    # User registration UI
+├── App.js                # Main state-based router connecting pages
+├── index.css             # Tailwind imports & custom font configs
+└── index.js              # React entry point
