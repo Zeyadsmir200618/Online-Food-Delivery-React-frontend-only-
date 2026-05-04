@@ -57,3 +57,5 @@ src/
 ├── App.js                # Main state-based router connecting pages
 ├── index.css             # Tailwind imports & custom font configs
 └── index.js              # React entry point
+🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
